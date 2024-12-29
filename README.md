@@ -1,13 +1,43 @@
-> **Competria: A Competitive Programming Platform**
-
-Competria is a comprehensive platform designed to provide an intuitive and seamless experience for competitive programming enthusiasts. Whether you are a problem solver or an administrator managing challenges, Competria offers a robust toolset inspired by leading platforms like Codeforces. With features like a built-in code editor, compiler integration, dynamic database synchronization, and user-friendly workflows, Competria aims to simplify the competitive programming journey for all its users.
-
-The platform offers a range of user-centric features. Users can solve coding challenges using an integrated editor powered by QScintilla, which supports syntax highlighting and code assistance. With GCC/G++ compilers seamlessly integrated, solutions can be compiled and executed instantly, providing real-time feedback on test cases. Additionally, Competria includes a leaderboard system that ranks users based on their performance, promoting healthy competition. For administrators, the platform simplifies problem and test case management, offering tools to create, edit, and validate problems effortlessly.
-
-Competria also features a modern and visually appealing user interface, designed using Figma to ensure a consistent and user-friendly experience. The secure authentication system supports role-based access, ensuring smooth operation for both users and administrators. A lightweight SQLite database is used for efficient data handling, with provisions to transition to a scalable MySQL system in the future.
-
-To install Competria, clone the repository, set up dependencies like the Qt Framework and GCC/G++, and configure the database. The application can be built and run using Qt Creator, and the database can be initialized with the provided SQLite file. For MySQL users, database settings can be updated in the source code.
-
-While developing Competria, several challenges were encountered. These included integrating QScintilla with GCC/G++ compilers, managing real-time synchronization between the database and the UI, and implementing robust logic for test case validation. Addressing these challenges required thoughtful design and a focus on performance and reliability.
-
-Future enhancements for Competria include adding support for multiple programming languages, improving the leaderboard functionality, enabling problem tagging and filtering by topics or difficulty, and transitioning to a relational database system like MySQL for better scalability. Additional features such as forums and solution explanations are also planned to foster community engagement and collaboration.
+Competria - A Simplified Competitive Programming Platform
+1. Introduction
+Competria is a desktop application designed to simulate the functionality of platforms like HackerRank, providing a simplified environment for users to solve programming problems and be assessed based on test cases. It is aimed at fostering programming skills in an interactive and user-friendly way.
+The application leverages Qt Framework for development, MS Access as a database, and the QScintilla library for code editing and syntax highlighting. It offers separate interfaces for administrators and users, ensuring functionality tailored to their respective roles.
+________________________________________
+2. Objectives
+•	Create a competitive programming platform with essential features for problem-solving.
+•	Implement user authentication and role-based functionality for users and administrators.
+•	Integrate a dynamic code editor using the QScintilla library.
+•	Validate user solutions against pre-defined test cases for accurate evaluation.
+________________________________________
+ 3. Key Functional Areas:
+•	Admin Dashboard: Interfaces for managing users and problems.
+•	Database Management: Handles database operations for users, problems, submissions, and test cases.
+•	Session Management: Implements a singleton pattern to manage login states.
+•	Problem Solving and Submissions: Supports user interaction for solving problems and saving results.
+4. Tools and Technologies Used
+1.	Development Tools:
+•	Qt Framework (C++) for UI and core application logic.
+•	QScintilla library for code editing and syntax highlighting.
+•	GCC/G++ compilers for code compilation.
+2.	Database:
+•	Microsoft Access for data storage and retrieval.
+3.	UI Design:
+•	Figma for designing user interfaces and prototyping.
+5. Features
+1.	User Authentication:
+•	Signup for new users.
+•	Separate login interfaces for users and administrators.
+2.	Admin Section:
+•	Problem Manager:
+                	Add, edit, delete problems.
+                	Add and manage test cases for each problem.
+•	User Manager:
+                	Add, edit, delete user accounts.
+3.	User Section:
+•	View problems on a user dashboard.
+•	Select a problem to solve via the problem-solving window.
+•	Input code into the integrated QScintilla code editor.
+•	Compile and run the code using GCC/G++.
+•	Validate solutions against test cases and receive marks accordingly.
+4.	Database Integration:
+•	Persistent storage for problems, test cases, and user information.

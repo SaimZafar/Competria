@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/delete_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/edit_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/arrow_menu_open_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/account_circle_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/login_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/manage_accounts_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/password_2_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/person_edit_28dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/person_28dp_E5EFC1_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/password_28dp_E5EFC1_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/shield_person_28dp_A2D5AB_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/percut_generated.jpg</file>
+        <file>src/delete_28dp_6B2346_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/mail_30dp_6B2346_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>src/Database1.accdb</file>
+        <file>src/engin-akyurt-8CItx_c0CkI-unsplash.jpg</file>
+        <file>src/nayam-27twCoUEAPM-unsplash (1).jpg</file>
+        <file>src/grunge-black-concrete-textured-background.jpg</file>
+        <file>src/black-texture.jpg</file>
+        <file>src/Sumbit.png</file>
+        <file>src/20647Button.png</file>
+        <file>src/SolveChallengeButton.png</file>
+        <file>src/206472.png</file>
+        <file>vvvv</file>
+        <file>src/Group 4.png</file>
+        <file>src/User.png</file>
+        <file>src/UserW.png</file>
+        <file>src/Group 5.png</file>
+        <file>src/Edit.png</file>
+        <file>src/ManageProblems.png</file>
+        <file>src/MonitorSubmissions.png</file>
+        <file>src/ManageUsers.png</file>
+        <file>src/ManageProblems2.png</file>
+        <file>src/Delete BUtton 2.png</file>
+        <file>src/Delete BUtton 3.png</file>
+        <file>src/Delete Button.png</file>
+        <file>src/Edit Butotn.png</file>
+        <file>src/Add Button.png</file>
+        <file>src/Add Button2.png</file>
+        <file>src/Test Case.png</file>
+        <file>src/letter-c.png</file>
+        <file>src/icons8-c-50.png</file>
+    </qresource>
+</RCC>

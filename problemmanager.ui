@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>problemManager</class>
+ <widget class="QDialog" name="problemManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>909</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : 964EC2 ;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">background-color  : 964EC2 ;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:700;&quot;&gt;Manage Problems&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">background : 964EC2 ;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Problems List &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>50</number>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>150</number>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Title</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Description</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="AddTestCase">
+         <property name="styleSheet">
+          <string notr="true">background : 964EC2 ;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="createButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+    border-radius: 15px; /* Rounded corners */
+
+background-image: url(:/new/prefix1/src/Add Button.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="editButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+    border-radius: 15px; /* Rounded corners */
+
+background-image: url(:/new/prefix1/src/Edit Butotn.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addTestCaseButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+    border-radius: 15px; /* Rounded corners */
+
+background-image: url(:/new/prefix1/src/Test Case.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="deleteButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font/>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+    border-radius: 15px; /* Rounded corners */
+  
+background-image: url(:/new/prefix1/src/Delete Button.png);</string>
+            </property>
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="shortcut">
+             <string notr="true">Del</string>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
