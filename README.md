@@ -1,4 +1,5 @@
-> **Competria:** A Competitive Programming Platform
+> **Competria: A Competitive Programming Platform**
+
 Competria is a comprehensive platform designed to provide an intuitive and seamless experience for competitive programming enthusiasts. Whether you are a problem solver or an administrator managing challenges, Competria offers a robust toolset inspired by leading platforms like Codeforces. With features like a built-in code editor, compiler integration, dynamic database synchronization, and user-friendly workflows, Competria aims to simplify the competitive programming journey for all its users.
 
 The platform offers a range of user-centric features. Users can solve coding challenges using an integrated editor powered by QScintilla, which supports syntax highlighting and code assistance. With GCC/G++ compilers seamlessly integrated, solutions can be compiled and executed instantly, providing real-time feedback on test cases. Additionally, Competria includes a leaderboard system that ranks users based on their performance, promoting healthy competition. For administrators, the platform simplifies problem and test case management, offering tools to create, edit, and validate problems effortlessly.
